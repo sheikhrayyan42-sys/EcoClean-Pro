@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoClean Pro | Premium House Cleaning</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body id="top">
+  <header class="hero">
+    <div class="hero__overlay"></div>
+
+    <div class="hero__container">
+      <nav class="hero__nav" aria-label="Primary">
+        <div class="brand-group">
+          <a href="#" class="brand-logo">EcoClean Pro</a>
+          <button type="button" class="city-chip" aria-label="Current city Sydney">
+            SYDNEY <span class="city-chip__arrow">▼</span>
+          </button>
+        </div>
+
+        <div class="nav-links">
+          <a href="#top">HOME</a>
+          <a href="#testimonials-heading">REVIEWS</a>
+          <a href="#services-grid-heading">SERVICES</a>
+          <a href="#calculator">ESTIMATE</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">CONTACT</a>
+        </div>
+
+        <a href="tel:1800789123" class="phone-cta">1800 789 123</a>
+      </nav>
+
+      <div class="hero__content">
+        <aside class="left-column">
+          <article class="left-card">
+            <h1>SYDNEY'S #1 RATED HOUSE CLEANERS.</h1>
+          </article>
+        </aside>
+
+        <section class="right-column" aria-labelledby="hero-main-heading">
+          <p class="eyebrow">Premium Home Care</p>
+          <h2 id="hero-main-heading">Book your professional home cleaner in sec.</h2>
+
+          <div class="steps">
+            <a href="#calculator" class="step step--link">
+              <div class="step__icon">01</div>
+              <div class="step__body">
+                <h3>BOOK A CLEANING</h3>
+                <p>Choose a preferred date and time with a quick, seamless booking process.</p>
+                <span class="step__cta">Get estimate</span>
+              </div>
+            </a>
+
+            <a href="#contact" class="step step--link">
+              <div class="step__icon">02</div>
+              <div class="step__body">
+                <h3>CONFIRM BOOKING</h3>
+                <p>Receive instant confirmation and clear details before your cleaner arrives.</p>
+                <span class="step__cta">Contact us</span>
+              </div>
+            </a>
+
+            <a href="#contact" class="step step--link">
+              <div class="step__icon">03</div>
+              <div class="step__body">
+                <h3>ENJOY A CLEAN HOME</h3>
+                <p>Relax while trained professionals deliver a spotless, refreshed home.</p>
+                <span class="step__cta">Book again</span>
+              </div>
+            </a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </header>
+
+  <section class="services-carousel" aria-labelledby="services-carousel-heading">
+    <div class="services-carousel__container">
+      <div class="services-carousel__heading">
+        <h2 id="services-carousel-heading">
+          Popular Cleaning Services
+        </h2>
+        <p>
+          Explore our premium services tailored for homes and workplaces.
+        </p>
+      </div>
+
+      <div class="services-carousel__controls" aria-hidden="false">
+        <button type="button" class="carousel-arrow" data-direction="left" aria-label="Scroll services left">
+          &#8592;
+        </button>
+        <button type="button" class="carousel-arrow" data-direction="right" aria-label="Scroll services right">
+          &#8594;
+        </button>
+      </div>
+
+      <div
+        id="services-track"
+        class="services-carousel__track"
+        tabindex="0"
+        role="region"
+        aria-label="Cleaning services carousel"
+      >
+        <div class="services-carousel__row">
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">🏠</div>
+            <h3>House Cleaning</h3>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">✨</div>
+            <h3>Deep Cleaning</h3>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">🏢</div>
+            <h3>Office Cleaning</h3>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">📦</div>
+            <h3>Move-In / Move-Out Cleaning</h3>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">🧼</div>
+            <h3>Carpet Cleaning</h3>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white py-16 sm:py-20 lg:py-24" aria-labelledby="services-grid-heading">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-3xl text-center">
+        <p class="text-xs font-semibold uppercase tracking-[0.22em] text-emerald-700">OUR SERVICES</p>
+        <h2 id="services-grid-heading" class="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+          Professional Cleaning Services
+        </h2>
+        <p class="mt-4 text-sm text-slate-600 sm:text-base">
+          High-quality cleaning solutions designed for homes, apartments, and professional workspaces.
+        </p>
+      </div>
+
+      <div class="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-6">
+        <article class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm lg:col-span-2">
+          <img
+            src="https://images.unsplash.com/photo-1558618047-fd34e8313f98?auto=format&fit=crop&w=900&q=80"
+            alt="House cleaning service"
+            class="h-44 w-full object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-slate-900">House Cleaning</h3>
+            <p class="mt-3 text-sm leading-6 text-slate-600">
+              Complete home cleaning with attention to every detail.
+            </p>
+            <a
+              href="#contact"
+              class="mt-6 inline-flex items-center justify-center rounded-lg bg-emerald-700 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-emerald-800"
+            >
+              Book Now
+            </a>
+          </div>
+        </article>
+
+        <article class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm lg:col-span-2">
+          <img
+            src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=900&q=80"
+            alt="Deep cleaning service"
+            class="h-44 w-full object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-slate-900">Deep Cleaning</h3>
+            <p class="mt-3 text-sm leading-6 text-slate-600">
+              Intensive cleaning for kitchens, bathrooms, and hard-to-reach areas.
+            </p>
+            <a
+              href="#contact"
+              class="mt-6 inline-flex items-center justify-center rounded-lg bg-emerald-700 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-emerald-800"
+            >
+              Get Service
+            </a>
+          </div>
+        </article>
+
+        <article class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm lg:col-span-2">
+          <img
+            src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=900&q=80"
+            alt="Office cleaning service"
+            class="h-44 w-full object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-slate-900">Office Cleaning</h3>
+            <p class="mt-3 text-sm leading-6 text-slate-600">
+              Professional cleaning for offices and workplaces.
+            </p>
+            <a
+              href="#contact"
+              class="mt-6 inline-flex items-center justify-center rounded-lg bg-emerald-700 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-emerald-800"
+            >
+              Book Now
+            </a>
+          </div>
+        </article>
+
+        <article class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm lg:col-span-2 lg:col-start-2">
+          <img
+            src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=900&q=80"
+            alt="Move-in and move-out cleaning service"
+            class="h-44 w-full object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-slate-900">Move-In / Move-Out Cleaning</h3>
+            <p class="mt-3 text-sm leading-6 text-slate-600">
+              Perfect cleaning before or after moving.
+            </p>
+            <a
+              href="#contact"
+              class="mt-6 inline-flex items-center justify-center rounded-lg bg-emerald-700 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-emerald-800"
+            >
+              Get Service
+            </a>
+          </div>
+        </article>
+
+        <article class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm lg:col-span-2 lg:col-start-4">
+          <img
+            src="https://images.unsplash.com/photo-1595433707802-5cb5f6ef7934?auto=format&fit=crop&w=900&q=80"
+            alt="Carpet cleaning service"
+            class="h-44 w-full object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-slate-900">Carpet Cleaning</h3>
+            <p class="mt-3 text-sm leading-6 text-slate-600">
+              Remove dirt, stains, and allergens from carpets.
+            </p>
+            <a
+              href="#contact"
+              class="mt-6 inline-flex items-center justify-center rounded-lg bg-emerald-700 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-emerald-800"
+            >
+              Book Now
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="calculator" class="calculator" aria-labelledby="calculator-heading">
+    <div class="calculator__inner">
+      <div class="calculator-card">
+        <div class="calculator-card__header">
+          <div class="calculator-card__icon-wrap" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="calculator-card__icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+            </svg>
+          </div>
+          <h2 id="calculator-heading" class="calculator-card__title">Cleaning Estimator</h2>
+          <p class="calculator-card__subtitle">Get an instant quote for your home</p>
+        </div>
+
+        <div class="calculator-card__body">
+          <div class="calculator-field">
+            <div class="calculator-field__row">
+              <label class="calculator-field__label" for="sqftInput">Home Size</label>
+              <span class="calculator-badge">
+                <span id="sqftLabel">1500</span> sq ft
+              </span>
+            </div>
+            <input
+              type="range"
+              id="sqftInput"
+              class="calculator-range"
+              min="500"
+              max="5000"
+              step="100"
+              value="1500"
+            />
+          </div>
+
+          <div class="calculator-grid-2">
+            <div class="calculator-field">
+              <label class="calculator-field__label calculator-field__label--small" for="rooms">Bedrooms</label>
+              <select id="rooms" class="calculator-select">
+                <option value="1">1 Bedroom</option>
+                <option value="2">2 Bedrooms</option>
+                <option value="3" selected>3 Bedrooms</option>
+                <option value="4">4 Bedrooms</option>
+                <option value="5">5+ Bedrooms</option>
+              </select>
+            </div>
+            <div class="calculator-field">
+              <label class="calculator-field__label calculator-field__label--small" for="serviceType">Service Type</label>
+              <select id="serviceType" class="calculator-select">
+                <option value="standard">Standard Clean</option>
+                <option value="deep">Deep Clean (+30%)</option>
+                <option value="move">Move In/Out (+50%)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="calculator-eco">
+            <div class="calculator-eco__left">
+              <div class="calculator-eco__icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1.323l3.954 1.582 1.599-.8a1 1 0 01.894 1.79l-1.233.616 1.738 5.42a1 1 0 01-.285 1.05l-3.293 3.293a1 1 0 01-1.414 0l-3.293-3.293a1 1 0 01-.285-1.05l1.738-5.42-1.233-.616a1 1 0 01.894-1.79l1.599.8L9 3.323V3a1 1 0 011-1z" clip-rule="evenodd" />
+                </svg>
+              </div>
+              <span class="calculator-eco__text">Eco-Friendly Supplies</span>
+            </div>
+            <label class="eco-toggle">
+              <input type="checkbox" id="ecoFriendly" class="eco-toggle__input" />
+              <span class="eco-toggle__track"></span>
+            </label>
+          </div>
+
+          <div class="calculator-total">
+            <p class="calculator-total__eyebrow">Estimated Total</p>
+            <div class="calculator-total__price">
+              <span class="calculator-total__currency">$</span>
+              <span id="finalPrice" class="calculator-total__amount">185.00</span>
+            </div>
+            <a href="#contact" class="calculator-total__cta">Book Service Now</a>
+          </div>
+
+          <p class="calculator-disclaimer">
+            Prices are estimates based on standard home conditions. Final quote provided on-site.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials" aria-labelledby="testimonials-heading">
+    <div class="testimonials__container">
+      <div class="testimonials__heading">
+        <p class="testimonials__subtitle">Testimonials</p>
+        <h2 id="testimonials-heading">What Our Clients Say</h2>
+        <p class="testimonials__description">
+          Trusted by homeowners and businesses for consistent, high-quality cleaning results.
+        </p>
+      </div>
+
+      <div class="testimonials__grid">
+        <article class="testimonial-card">
+          <div class="testimonial-card__quote" aria-hidden="true">❝</div>
+          <p class="testimonial-card__text">
+            “The team did an amazing job! My house has never looked this clean. Highly recommended.”
+          </p>
+          <div class="testimonial-card__meta">
+            <p class="testimonial-card__name">Sarah Khan</p>
+            <p class="testimonial-card__role">Homeowner</p>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-card__quote" aria-hidden="true">❝</div>
+          <p class="testimonial-card__text">
+            “Professional, on time, and very detailed. Our office looks spotless every week.”
+          </p>
+          <div class="testimonial-card__meta">
+            <p class="testimonial-card__name">Ahmed Raza</p>
+            <p class="testimonial-card__role">Office Manager</p>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-card__quote" aria-hidden="true">❝</div>
+          <p class="testimonial-card__text">
+            “Booked them for a deep clean and they exceeded expectations. Will definitely use again.”
+          </p>
+          <div class="testimonial-card__meta">
+            <p class="testimonial-card__name">Ali Hassan</p>
+            <p class="testimonial-card__role">Apartment Owner</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="testimonials__dots" aria-label="Testimonials slider indicators">
+        <span class="testimonials__dot testimonials__dot--active"></span>
+        <span class="testimonials__dot"></span>
+        <span class="testimonials__dot"></span>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="faq" aria-labelledby="faq-heading">
+    <div class="faq__container">
+      <div class="faq__intro">
+        <p class="faq__subtitle">FAQ</p>
+        <h2 id="faq-heading">Frequently Asked Questions</h2>
+        <p class="faq__lede">
+          Answers about booking, pricing, and what to expect from EcoClean Pro.
+        </p>
+      </div>
+
+      <div class="faq__list">
+        <details class="faq__item">
+          <summary class="faq__question">How do I book a cleaning?</summary>
+          <div class="faq__answer">
+            <p>
+              Use our online estimate tool to pick your home size and service, then call
+              <a href="tel:1800789123">1800 789 123</a> or reach us through the contact section to confirm your date and time.
+            </p>
+          </div>
+        </details>
+
+        <details class="faq__item">
+          <summary class="faq__question">What’s included in a standard house clean?</summary>
+          <div class="faq__answer">
+            <p>
+              Dusting, vacuuming, mopping, kitchen and bathroom sanitising, and general tidying. Deep cleans add intensive work in kitchens, bathrooms, and hard-to-reach areas—tell us your priorities when you book.
+            </p>
+          </div>
+        </details>
+
+        <details class="faq__item">
+          <summary class="faq__question">Do you bring supplies and equipment?</summary>
+          <div class="faq__answer">
+            <p>
+              Yes. Our teams arrive with professional-grade supplies and tools. You can also request eco-friendly products when you schedule your visit.
+            </p>
+          </div>
+        </details>
+
+        <details class="faq__item">
+          <summary class="faq__question">Are your cleaners insured and background-checked?</summary>
+          <div class="faq__answer">
+            <p>
+              All EcoClean Pro staff are vetted, trained, and covered so you can feel comfortable inviting us into your home or office.
+            </p>
+          </div>
+        </details>
+
+        <details class="faq__item">
+          <summary class="faq__question">What if I need to reschedule or cancel?</summary>
+          <div class="faq__answer">
+            <p>
+              Contact us as early as possible. We’ll help you move your booking or cancel according to our policy so you’re never left guessing.
+            </p>
+          </div>
+        </details>
+
+        <details class="faq__item">
+          <summary class="faq__question">What areas do you serve?</summary>
+          <div class="faq__answer">
+            <p>
+              We currently serve Sydney and surrounding suburbs. Ask when you call if you’re on the edge of our coverage area.
+            </p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-strip" aria-labelledby="contact-heading">
+    <div class="contact-strip__inner">
+      <h2 id="contact-heading" class="contact-strip__title">Ready to book?</h2>
+      <p class="contact-strip__text">Call us or send a message — we’ll confirm your cleaning in no time.</p>
+      <a href="tel:1800789123" class="contact-strip__phone">1800 789 123</a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
