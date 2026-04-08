@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews - Premium Cleaning Services</title>
+    <!-- Inter Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <!-- Animated Background Elements -->
+        <svg class="float-item leaf-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 22c1.25-3.33 3.33-5.42 6.25-6.25S13.67 14.5 15 17c.96-1.5 2.5-3.5 5-5-2.5-.5-5.5-1.5-6.5-4C12.5 10 10.5 12 8 13c1.5.5 2.5 1.5 3 3-3 .5-6 1.5-9 6z"></path></svg>
+        <svg class="float-item bubble-1" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="3"></circle></svg>
+        <svg class="float-item spray-1" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><path d="M12 2v20M5 12h14"></path></svg>
+        <svg class="float-item leaf-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 3.5-3 8h-3c-1 0-2 1-2 2z"></path></svg>
+
+        <span class="hero-label">Testimonials</span>
+        <h1>Explore Our Reviews and Learn From The Insights</h1>
+        <p>Trusted by homeowners and businesses for consistent, high-quality cleaning results. See why our clients love coming home to a fresh space.</p>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="reviews-container">
+        <div class="reviews-grid" id="reviewsGrid">
+            <!-- Review Card 1 -->
+            <div class="review-card">
+                <div class="quote-icon">“</div>
+                <div class="stars">★★★★★</div>
+                <p class="review-text">“The team did an amazing job! My house has never looked this clean. Highly recommended.”</p>
+                <div class="reviewer-info">
+                    <span class="reviewer-name">Sarah Khan</span>
+                    <span class="reviewer-label">Homeowner</span>
+                </div>
+            </div>
+
+            <!-- Review Card 2 -->
+            <div class="review-card">
+                <div class="quote-icon">“</div>
+                <div class="stars">★★★★★</div>
+                <p class="review-text">“Professional, on time, and very detailed. Our office looks spotless every week.”</p>
+                <div class="reviewer-info">
+                    <span class="reviewer-name">Ahmed Raza</span>
+                    <span class="reviewer-label">Office Manager</span>
+                </div>
+            </div>
+
+            <!-- Review Card 3 -->
+            <div class="review-card">
+                <div class="quote-icon">“</div>
+                <div class="stars">★★★★★</div>
+                <p class="review-text">“Booked them for a deep clean and they exceeded expectations. Will definitely use again.”</p>
+                <div class="reviewer-info">
+                    <span class="reviewer-name">Ali Hassan</span>
+                    <span class="reviewer-label">Apartment Owner</span>
+                </div>
+            </div>
+
+            <!-- Review Card 4 -->
+            <div class="review-card">
+                <div class="quote-icon">“</div>
+                <div class="stars">★★★★★</div>
+                <p class="review-text">“As a busy professional, I appreciate their reliability. They come in, do a fantastic job, and leave everything sparkling.”</p>
+                <div class="reviewer-info">
+                    <span class="reviewer-name">Jessica Miller</span>
+                    <span class="reviewer-label">Customer</span>
+                </div>
+            </div>
+
+            <!-- Review Card 5 -->
+            <div class="review-card">
+                <div class="quote-icon">“</div>
+                <div class="stars">★★★★★</div>
+                <p class="review-text">“The attention to detail is unmatched. They cleaned corners I didn't even know were dirty!”</p>
+                <div class="reviewer-info">
+                    <span class="reviewer-name">Michael Chen</span>
+                    <span class="reviewer-label">Homeowner</span>
+                </div>
+            </div>
+
+            <!-- Review Card 6 -->
+            <div class="review-card">
+                <div class="quote-icon">“</div>
+                <div class="stars">★★★★★</div>
+                <p class="review-text">“Fast communication and easy booking process. The cleaning crew was polite and very efficient.”</p>
+                <div class="reviewer-info">
+                    <span class="reviewer-name">Fatima Noor</span>
+                    <span class="reviewer-label">Airbnb Host</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Submission Form Section -->
+    <section class="form-section">
+        <div class="form-container">
+            <div class="form-header">
+                <h2>Share Your Experience</h2>
+                <p>We value your feedback. Let us know how we did!</p>
+            </div>
+            <form id="reviewForm">
+                <div class="form-group">
+                    <label>Your Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label>Email Address</label>
+                    <input type="email" id="email" placeholder="email@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label>Rating</label>
+                    <select id="rating">
+                        <option value="5">5 Stars - Excellent</option>
+                        <option value="4">4 Stars - Very Good</option>
+                        <option value="3">3 Stars - Good</option>
+                        <option value="2">2 Stars - Fair</option>
+                        <option value="1">1 Star - Poor</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Your Message</label>
+                    <textarea id="message" rows="4" placeholder="How was our service?" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Submit Review</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <h2>Our Goal is to Wow You With Every Clean</h2>
+        <p style="margin-bottom: 2rem; opacity: 0.9;">Ready for a spotless space? Call us today for a free estimate.</p>
+        <a href="tel:+1234567890" class="call-btn">
+            <span>📞</span> +1 (234) 567-890
+        </a>
+    </section>
+
+    <div id="notification">Review submitted successfully!</div>
+
+    <!-- Link to external JS -->
+    <script src="script.js"></script>
+</body>
+</html>
