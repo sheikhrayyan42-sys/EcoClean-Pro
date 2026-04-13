@@ -25,11 +25,11 @@
 
         <div class="nav-links">
           <a href="#top">HOME</a>
-          <a href="#testimonials-heading">REVIEWS</a>
+          <a href="reviews.html">REVIEWS</a>
           <a href="#services-grid-heading">SERVICES</a>
           <a href="#calculator">ESTIMATE</a>
           <a href="#faq">FAQ</a>
-          <a href="#contact">CONTACT</a>
+          <a href="#contact-page">CONTACT</a>
         </div>
 
         <a href="tel:1800789123" class="phone-cta">1800 789 123</a>
@@ -56,7 +56,7 @@
               </div>
             </a>
 
-            <a href="#contact" class="step step--link">
+            <a href="#contact-page" class="step step--link">
               <div class="step__icon">02</div>
               <div class="step__body">
                 <h3>CONFIRM BOOKING</h3>
@@ -65,7 +65,7 @@
               </div>
             </a>
 
-            <a href="#contact" class="step step--link">
+            <a href="#contact-page" class="step step--link">
               <div class="step__icon">03</div>
               <div class="step__body">
                 <h3>ENJOY A CLEAN HOME</h3>
@@ -326,7 +326,7 @@
               <span class="calculator-total__currency">$</span>
               <span id="finalPrice" class="calculator-total__amount">185.00</span>
             </div>
-            <a href="#contact" class="calculator-total__cta">Book Service Now</a>
+            <a href="#contact-page" class="calculator-total__cta">Book Service Now</a>
           </div>
 
           <p class="calculator-disclaimer">
@@ -459,13 +459,92 @@
     </div>
   </section>
 
-  <section id="contact" class="contact-strip" aria-labelledby="contact-heading">
-    <div class="contact-strip__inner">
-      <h2 id="contact-heading" class="contact-strip__title">Ready to book?</h2>
-      <p class="contact-strip__text">Call us or send a message — we’ll confirm your cleaning in no time.</p>
-      <a href="tel:1800789123" class="contact-strip__phone">1800 789 123</a>
+  <section id="contact-page" class="contact-page-hero section-reveal" aria-labelledby="contact-page-heading">
+    <div class="contact-page-hero__container">
+      <div class="contact-page-hero__floating" aria-hidden="true">
+        <span class="contact-float contact-float--one">🌿</span>
+        <span class="contact-float contact-float--two">🍃</span>
+        <span class="contact-float contact-float--three">✨</span>
+      </div>
+      <p class="contact-page-hero__label">CONTACT US</p>
+      <h2 id="contact-page-heading">Get in Touch With Us</h2>
     </div>
   </section>
+
+  <section class="contact-info section-reveal" aria-label="Contact details">
+    <div class="contact-info__container">
+      <article class="contact-info-card">
+        <span class="contact-info-card__icon" aria-hidden="true">✉</span>
+        <h3>Email Us</h3>
+        <p>victoriacleaning01@gmail.com</p>
+      </article>
+      <article class="contact-info-card">
+        <span class="contact-info-card__icon" aria-hidden="true">☎</span>
+        <h3>Call Us</h3>
+        <p>(678) 704-7930</p>
+      </article>
+      <article class="contact-info-card">
+        <span class="contact-info-card__icon" aria-hidden="true">📍</span>
+        <h3>Our Location</h3>
+        <p>Atlanta, Georgia</p>
+      </article>
+      <article class="contact-info-card">
+        <span class="contact-info-card__icon" aria-hidden="true">🕒</span>
+        <h3>Working Hours</h3>
+        <p>Monday - Friday</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="contact-form-layout section-reveal" aria-labelledby="contact-form-heading">
+    <div class="contact-form-layout__container">
+      <div class="contact-form-panel">
+        <h3 id="contact-form-heading">Send Us a Message</h3>
+        <form id="contactPageForm" novalidate>
+          <div class="contact-form-grid">
+            <div class="contact-form-field">
+              <label for="contactName">Name</label>
+              <input id="contactName" type="text" name="name" required />
+            </div>
+            <div class="contact-form-field">
+              <label for="contactEmail">Email</label>
+              <input id="contactEmail" type="email" name="email" required />
+            </div>
+            <div class="contact-form-field">
+              <label for="contactPhone">Phone</label>
+              <input id="contactPhone" type="tel" name="phone" required />
+            </div>
+            <div class="contact-form-field">
+              <label for="contactSubject">Subject</label>
+              <input id="contactSubject" type="text" name="subject" required />
+            </div>
+          </div>
+          <div class="contact-form-field">
+            <label for="contactMessage">Message</label>
+            <textarea id="contactMessage" name="message" rows="5" required></textarea>
+          </div>
+          <p id="contactFormMessage" class="contact-form-message" aria-live="polite"></p>
+          <button type="submit" class="contact-form-submit">Send Message</button>
+        </form>
+      </div>
+
+      <div class="contact-image-panel">
+        <img src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=1000&q=80" alt="Professional cleaner preparing equipment" />
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-map section-reveal" aria-label="Map location">
+    <div class="contact-map__container">
+      <iframe
+        title="Map showing Atlanta Georgia"
+        src="https://www.google.com/maps?q=Atlanta,GA&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+  </section>
+
   <footer class="site-footer" aria-labelledby="footer-heading">
     <div class="site-footer__inner">
       <h2 id="footer-heading" class="sr-only">Footer</h2>
@@ -520,7 +599,7 @@
           <div class="footer-col">
             <p class="footer-col__title">Get In Touch</p>
             <a href="tel:1800789123">1800 789 123</a>
-            <a href="index.html#contact">Contact</a>
+            <a href="index.html#contact-page">Contact</a>
             <a href="index.html#calculator">Get Estimate</a>
           </div>
         </div>
